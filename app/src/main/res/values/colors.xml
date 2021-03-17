@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#3700B3</color>
+    <color name="colorPrimaryDark">	#6200EE</color>
+    <color name="colorAccent">#D81B60</color>-->
+<!--    <color name="colorPrimary">#2eb2d3</color>
+    <color name="colorPrimaryDark">#388ea5</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+<!--    <color name="colorPrimary">#eb7b27</color>
+    <color name="colorPrimaryDark">#f86619</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+    <color name="colorPrimary">#335e91</color>
+    <color name="colorPrimaryDark">#1c4484</color>
+    <color name="colorAccent">#335e91</color>
+
+    <color name="sign_in_background">#039BE5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#a8a8a8</color>
+    <color name="red">#D81B60</color>
+    <color name="red_low">#F0655A</color>
+    <color name="green">#00897B</color>
+    <color name="blue">#039BE5</color>
+    <color name="yellow">#FFB300</color>
+    <color name="orenge">#f39c26</color>
+    <color name="dark_accent">#863670</color>
+    <color name="btn_disable">#E3E3E3</color>
+    <color name="light_green">#66C62D</color>
+    <color name="black">#353434</color>
+    <color name="purple">#7CB342</color>
+    <color name="dark_grey">#5A5050</color>
+    <color name="cash_background">#6655BF</color>
+    <color name="bkash_background">#fc5c4c</color>
+    <color name="rocket_background">#813772</color>
+    <color name="visa_background">#6655BF</color>
+    <color name="square_boarder_color">#6200EE</color>
+    <color name="button_color">#3700B3</color>
+    <color name="dims_selected">#C0CA33</color>
+    <color name="medicine_form_color">#1E88E5</color>
+    <color name="dims_brand_name">#00897B</color>
+    <color name="text_color">#3700B3</color>
+    <color name="add_button_color">#6200EE</color>
+    <color name="line_color">#6200EE</color>
+    <color name="receive_tk_bg">#B00020</color>
+    <color name="discount_bg">#3700B3</color>
+    <color name="save_btn_color">#000000</color>
+    <color name="print_btn_color">#3700B3</color>
+    <color name="nav_top_bg">#6200EE</color>
+    <color name="nav_bg">#3700B3</color>
+    <color name="blueTransparent">#6cacc4</color>
+    <color name="newBlue">#1c4484</color>
+
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_70">#EAE4E4</color>
+</resources>

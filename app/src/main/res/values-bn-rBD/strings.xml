@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Terminalbd</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="uniquekey" translatable="false">Unique Key</string>
+    <string name="setup" translatable="false">Setup</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="device_id_text" translatable="false">Device Id</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tip_insert_usb_device">Pls insert USB device</string>
+
+    <string name="adapter_usbdevice">USB Device:</string>
+    <string name="choose_usb_device">Choose USB Device</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_tip">Tip</string>
+    <string name="main_pls_choose_device">Please choose a device</string>
+    <string name="dialog_back">Back</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="sync_status">sync</string>
+
+</resources>

@@ -1,0 +1,332 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.terminalbd.www"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.usb.host" />
+11-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:6:5-62
+11-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:6:19-59
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:7:5-70
+12-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:7:19-67
+13
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:9:5-79
+14-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:10:5-67
+15-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:11:5-68
+16-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:12:5-74
+17-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:12:22-71
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:13:5-65
+18-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:13:22-62
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:14:5-80
+19-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:15:5-81
+20-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:15:22-78
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:17:5-60
+22-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:17:19-57
+23
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\52a4db7bf34bb8f1bda8a85be79e7b9a\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:5-66
+24-->[com.wdullaer:materialdatetimepicker:2.3.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\52a4db7bf34bb8f1bda8a85be79e7b9a\jetified-materialdatetimepicker-2.3.0\AndroidManifest.xml:26:22-63
+25
+26    <application
+26-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:19:5-72:19
+27        android:name="com.terminalbd.www.app.TerminalApplication"
+27-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:20:9-48
+28        android:allowBackup="true"
+28-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:21:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\2e1730133b22db005dacbb02c4502210\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:hardwareAccelerated="true"
+31-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:22:9-43
+32        android:icon="@mipmap/ic_launcher"
+32-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:23:9-43
+33        android:label="@string/app_name"
+33-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:24:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:25:9-69
+35        android:requestLegacyExternalStorage="true"
+35-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:26:9-52
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:27:9-54
+37        android:supportsRtl="true"
+37-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:28:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme"
+39-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:29:9-40
+40        android:usesCleartextTraffic="true" >
+40-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:30:9-44
+41        <activity android:name="com.terminalbd.www.activity.MultipleUserActivity" />
+41-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:32:9-76
+41-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:32:19-64
+42        <activity android:name="com.terminalbd.www.activity.VerifyOTPActivity" />
+42-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:33:9-64
+42-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:33:19-61
+43        <activity android:name="com.terminalbd.www.activity.ProductActivity" />
+43-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:34:9-62
+43-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:34:19-59
+44        <activity android:name="com.terminalbd.www.activity.CategoryActivity" />
+44-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:35:9-63
+44-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:35:19-60
+45        <activity android:name="com.terminalbd.www.activity.SignupActivity" />
+45-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:36:9-61
+45-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:36:19-58
+46        <activity android:name="com.terminalbd.www.activity.BarcodeScannerActivity" />
+46-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:37:9-69
+46-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:37:19-66
+47        <activity android:name="com.terminalbd.www.activity.ExpenseEditActivity" />
+47-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:38:9-66
+47-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:38:19-63
+48        <activity android:name="com.terminalbd.www.activity.ExpenseDetailsActivity" />
+48-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:39:9-69
+48-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:39:19-66
+49        <activity android:name="com.terminalbd.www.activity.PurchaseEditActivity" />
+49-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:40:9-67
+49-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:40:19-64
+50        <activity android:name="com.terminalbd.www.activity.PurchaseDetailsActivity" />
+50-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:41:9-70
+50-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:41:19-67
+51        <activity android:name="com.terminalbd.www.activity.SalesDetailsActivity" />
+51-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:42:9-67
+51-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:42:19-64
+52        <activity android:name="com.terminalbd.www.activity.SalesEditActivity" />
+52-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:43:9-64
+52-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:43:19-61
+53        <activity android:name="com.terminalbd.www.activity.DimsActivity" />
+53-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:44:9-59
+53-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:44:19-56
+54        <activity android:name="com.terminalbd.www.activity.StockActivity" />
+54-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:45:9-60
+54-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:45:19-57
+55        <activity android:name="com.terminalbd.www.activity.ExpenseActivity" />
+55-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:46:9-62
+55-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:46:19-59
+56        <activity android:name="com.terminalbd.www.activity.PurchasePaymentActivity" />
+56-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:47:9-70
+56-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:47:19-67
+57        <activity android:name="com.terminalbd.www.activity.SalePaymentActivity" >
+57-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:48:9-52:20
+57-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:48:19-63
+58            <meta-data
+58-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:49:13-51:57
+59                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+59-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:50:17-79
+60                android:resource="@xml/device_filter" />
+60-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:51:17-54
+61        </activity>
+62        <activity android:name="com.terminalbd.www.activity.PurchaseActivity" />
+62-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:53:9-63
+62-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:53:19-60
+63        <activity android:name="com.terminalbd.www.activity.DashboardActivity" />
+63-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:54:9-64
+63-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:54:19-61
+64        <activity android:name="com.terminalbd.www.activity.PrinterConnectActivity" />
+64-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:55:9-69
+64-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:55:19-66
+65        <activity android:name="com.terminalbd.www.activity.SalesActivity" />
+65-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:56:9-60
+65-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:56:19-57
+66        <activity android:name="com.terminalbd.www.activity.LoginActivity" />
+66-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:57:9-60
+66-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:57:19-57
+67        <activity android:name="com.terminalbd.www.activity.DeviceListActivity" />
+67-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:58:9-65
+67-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:58:19-62
+68        <activity
+68-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:59:9-67:20
+69            android:name="com.terminalbd.www.activity.SetupActivity"
+69-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:60:13-51
+70            android:noHistory="true" >
+70-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:61:13-37
+71            <intent-filter>
+71-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:62:13-66:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:63:17-69
+72-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:63:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:65:17-77
+74-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:65:27-74
+75            </intent-filter>
+76        </activity>
+77
+78        <meta-data
+78-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:69:9-71:57
+79            android:name="preloaded_fonts"
+79-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:70:13-43
+80            android:resource="@array/preloaded_fonts" />
+80-->F:\Office Work\Test App\Terminalbd\app\src\main\AndroidManifest.xml:71:13-54
+81
+82        <service
+82-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+87-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\a35e13e3f8fbad2487df260a7eabf248\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
+92            <!--
+93                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+94                clients to use it as well, by defining this registrar in their own core/common library.
+95            -->
+96            <meta-data
+96-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+97                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+97-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+99        </service>
+100
+101        <activity
+101-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
+102            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+102-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+108-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+110-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+111-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
+112
+113                <data
+113-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
+114                    android:host="firebase.auth"
+114-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
+115                    android:path="/"
+115-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
+116                    android:scheme="genericidp" />
+116-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
+120            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+120-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
+121            android:excludeFromRecents="true"
+121-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
+122            android:exported="true"
+122-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
+123            android:launchMode="singleTask"
+123-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+124-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
+125            <intent-filter>
+125-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+126-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+128-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+129-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
+130
+131                <data
+131-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
+132                    android:host="firebase.auth"
+132-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
+133                    android:path="/"
+133-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
+134                    android:scheme="recaptcha" />
+134-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
+135            </intent-filter>
+136        </activity>
+137
+138        <service
+138-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
+139            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+139-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
+140            android:enabled="true"
+140-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
+143                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+143-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
+143-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+145-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\e343d9446723cd44ab5dfaaa252e1f22\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+146            </intent-filter>
+147        </service>
+148
+149        <provider
+149-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+150            android:name="com.google.firebase.provider.FirebaseInitProvider"
+150-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+151            android:authorities="com.terminalbd.www.firebaseinitprovider"
+151-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+152            android:directBootAware="true"
+152-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\d432b506e32a6cefccd9b629977730dd\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\2a487bf84ba48882683e387676f9af3b\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\2a487bf84ba48882683e387676f9af3b\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\2a487bf84ba48882683e387676f9af3b\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\2a487bf84ba48882683e387676f9af3b\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\b4b89b88c068311f733556262473d9f7\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\b4b89b88c068311f733556262473d9f7\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Shihab\.gradle\caches\transforms-2\files-2.1\b4b89b88c068311f733556262473d9f7\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+164    </application>
+165
+166</manifest>

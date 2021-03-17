@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-flags:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec9477d941712bf6c50424d18fd292f3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38856f983f3df400b2ed003b8325a9fd/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/630d35f12fa742fd094c2d654354b15e/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3358cefa9d3dc9b5770ce6ea3b31c95/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f629dee21eedf21cb0aad5adf3c34831/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3358cefa9d3dc9b5770ce6ea3b31c95/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3358cefa9d3dc9b5770ce6ea3b31c95/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

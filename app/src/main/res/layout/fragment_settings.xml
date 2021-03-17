@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="wrap_content"
+           android:background="@color/grey"
+           android:gravity="center_vertical"
+           android:layout_marginTop="@dimen/_8sdp">
+
+           <TextView
+               android:id="@+id/export_sync"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Sync For Data Export"
+               android:textSize="@dimen/_13sdp"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textColor="@color/white"
+               android:background="@color/nav_top_bg"
+               android:gravity="center_vertical"/>
+
+           <ImageView
+               android:id="@+id/export_arrow_icon"
+               android:layout_width="@dimen/_30sdp"
+               android:layout_height="@dimen/_30sdp"
+               android:src="@drawable/ic_arrow_down"
+               android:padding="@dimen/_5sdp"
+               android:background="@color/discount_bg"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/export_sync_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Sales"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_sales"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Purchase"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_purchase"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Expense"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_expense"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="wrap_content"
+           android:background="@color/grey"
+           android:gravity="center_vertical"
+           android:layout_marginTop="@dimen/_8sdp">
+
+           <TextView
+               android:id="@+id/manual_sync"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Sync For Data Import"
+               android:textSize="@dimen/_13sdp"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textColor="@color/white"
+               android:background="@color/nav_top_bg"
+               android:gravity="center_vertical"/>
+
+           <ImageView
+               android:id="@+id/import_arrow_icon"
+               android:layout_width="@dimen/_30sdp"
+               android:layout_height="@dimen/_30sdp"
+               android:src="@drawable/ic_arrow_down"
+               android:padding="@dimen/_5sdp"
+               android:background="@color/discount_bg"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/manual_sync_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Stock Items"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_stock"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="System Users"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_system_users"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Product Category"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_product_category"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Anonymous Customer"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_anonymous_customer"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Transaction Method"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_transaction_method"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Bank Account"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_bank_account"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Mobile Account"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_mobile_account"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Vendor List"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_vendor"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Expense Category"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_expense_category"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+           <LinearLayout
+               android:id="@+id/medicine_layout"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/_8sdp"
+               android:layout_marginRight="@dimen/_8sdp">
+
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="Medicine"/>
+
+               <ImageView
+                   style="@android:style/Widget.ActionButton"
+                   android:id="@+id/sync_dims"
+                   android:layout_width="@dimen/_40sdp"
+                   android:layout_height="@dimen/_40sdp"
+                   android:layout_centerInParent="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@drawable/ic_sync_purple"/>
+
+           </LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dip"
+               android:background="@color/grey"/>
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Sales Mode"
+           android:layout_height="@dimen/_30sdp"
+           android:paddingLeft="@dimen/_5sdp"
+           android:textSize="@dimen/_13sdp"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:gravity="center_vertical"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:gravity="center_vertical">
+
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1.2"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Select Sales Mode"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textSize="@dimen/_12sdp"
+               android:fontFamily="sans-serif-condensed-medium"
+               android:gravity="center_vertical"/>
+
+           <Spinner
+               android:id="@+id/sales_mode_spinner"
+               android:layout_width="0dp"
+               android:layout_weight="1.8"
+               android:layout_height="@dimen/_30sdp"
+               android:background="@drawable/spinner_border">
+
+           </Spinner>
+
+
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dip"
+           android:background="@color/grey"
+           android:layout_marginTop="@dimen/_5sdp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Online/Offline Mode"
+           android:layout_height="@dimen/_30sdp"
+           android:paddingLeft="@dimen/_5sdp"
+           android:textSize="@dimen/_13sdp"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:gravity="center_vertical"
+           android:layout_marginTop="@dimen/_10sdp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:gravity="center_vertical">
+
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1.2"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Select Mode"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textSize="@dimen/_12sdp"
+               android:fontFamily="sans-serif-condensed-medium"
+               android:gravity="center_vertical"/>
+
+           <Switch
+               android:id="@+id/online_offline_mode"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="Offline"
+               android:paddingLeft="@dimen/_35sdp"
+               android:background="@color/grey"
+               android:layout_height="@dimen/_30sdp">
+
+           </Switch>
+
+
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dip"
+           android:background="@color/grey"
+           android:layout_marginTop="@dimen/_5sdp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Barcode"
+           android:layout_height="@dimen/_30sdp"
+           android:paddingLeft="@dimen/_5sdp"
+           android:textSize="@dimen/_13sdp"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:gravity="center_vertical"
+           android:layout_marginTop="@dimen/_10sdp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:gravity="center_vertical">
+
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1.2"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Select Mode"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textSize="@dimen/_12sdp"
+               android:fontFamily="sans-serif-condensed-medium"
+               android:gravity="center_vertical"/>
+
+           <Switch
+               android:id="@+id/barcode_mode"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:background="@color/grey"
+               android:text="Off"
+               android:paddingLeft="@dimen/_35sdp"
+               android:layout_height="@dimen/_30sdp">
+
+           </Switch>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:gravity="center_vertical">
+
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1.2"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Select Barcode Camera"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textSize="@dimen/_12sdp"
+               android:fontFamily="sans-serif-condensed-medium"
+               android:gravity="center_vertical"/>
+
+           <Spinner
+               android:id="@+id/camera_mode_spinner"
+               android:layout_width="0dp"
+               android:layout_weight="1.8"
+               android:layout_height="@dimen/_30sdp"
+               android:background="@drawable/spinner_border">
+
+           </Spinner>
+
+
+       </LinearLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dip"
+           android:background="@color/grey"
+           android:layout_marginTop="@dimen/_5sdp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Printer Type"
+           android:layout_height="@dimen/_30sdp"
+           android:paddingLeft="@dimen/_5sdp"
+           android:textSize="@dimen/_13sdp"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:gravity="center_vertical"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:gravity="center_vertical">
+
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1.2"
+               android:layout_height="@dimen/_30sdp"
+               android:text="Select Printer Type"
+               android:paddingLeft="@dimen/_5sdp"
+               android:textSize="@dimen/_12sdp"
+               android:fontFamily="sans-serif-condensed-medium"
+               android:gravity="center_vertical"/>
+
+           <Spinner
+               android:id="@+id/printer_type_spinner"
+               android:layout_width="0dp"
+               android:layout_weight="1.8"
+               android:layout_height="@dimen/_30sdp"
+               android:background="@drawable/spinner_border">
+
+           </Spinner>
+
+
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dip"
+           android:background="@color/grey"
+           android:layout_marginTop="@dimen/_5sdp"/>
+   </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>
