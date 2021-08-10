@@ -1,6 +1,6 @@
 <resources>
-    <!--<string name="app_name" translatable="false">Terminalbd</string>-->
-    <string name="app_name" translatable="false">Bengal</string>
+    <string name="app_name" translatable="false">TerminalBD</string>
+    <!--<string name="app_name" translatable="false">Restaurant</string>-->
     <string name="mobile" translatable="false">Licence Key</string>
     <string name="uniquekey" translatable="false">Active Key</string>
     <string name="setup" translatable="false">Setup</string>
@@ -22,6 +22,38 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+
+
+    <string name="stocktitle">Stock</string>
+    <string name="string_mrp">MRP</string>
+    <string name="string_unit">Unit</string>
+    <string name="string_pp">Purchase Price</string>
+
+
+    <string name="string_createstocktitle">Create Stock Item</string>
+    <string name="string_item_name">Item Name*</string>
+    <string name="string_fullproductname">Ente the product full name</string>
+    <string name="string_selectproductcat">Select product category</string>
+    <string name="string_mrpmust">MRP*</string>
+    <string name="string_PPmust">PP</string>
+    <string name="string_entertheproductmrp">Ente the product MRP</string>
+    <string name="string_enterthepp">Ente the Purchase Price</string>
+    <string name="string_brandname">Brand Name</string>
+    <string name="string_entertheproductbrandname">Ente the product brand name</string>
+    <string name="string_minimum">Minimum</string>
+    <string name="string_opening">Opening</string>
+    <string name="string_entertheproductmqty">Ente the product Minimum Quantity</string>
+    <string name="string_entertheproductoqty">Ente the product Opening Quantity</string>
+    <string name="string_selectproductunit">Select product unit</string>
+    <string name="string_description">Description</string>
+    <string name="string_enterproductfulldes">Ente the product full Description</string>
+    <string name="string_btnback">Back</string>
+    <string name="string_save"> Save</string>
+    <string name="string_selectacat">Select a Category</string>
+    <string name="string_selectaunit">Select a Unit</string>
+    <string name="string_updatestockitem">Update Stock Item</string>
+    <string name="string_update"> Update</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

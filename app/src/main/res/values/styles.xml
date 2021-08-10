@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="drawerArrowStyle">@style/DrawerIcon</item>
 
+        <item name="actionOverflowButtonStyle">@style/IconOverflow</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -35,11 +36,18 @@
 
 
     <style name="BlueTextInputLayout" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textColor">#3f4655</item>
+     <!--  <item name="android:textColor">#3f4655</item>-->
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 <!--
     <style name="BlueTextInputLayout" parent="@style/TextAppearance.AppCompat">
         <item name="android:textColor">#f39c26</item>
     </style>-->
+
+
+
+    <style name="IconOverflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
 
 </resources>

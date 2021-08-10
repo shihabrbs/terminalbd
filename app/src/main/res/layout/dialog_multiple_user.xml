@@ -62,7 +62,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.hbb20.CountryCodePicker
-        android:id="@+id/ccp"
+        android:id="@+id/cccp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -97,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/email"
+            android:id="@+id/emailnoid"
             android:inputType="textEmailAddress"
             android:maxLines="1"
             android:textColorHint="@color/blue" />
@@ -120,7 +121,7 @@
         app:layout_constraintTop_toBottomOf="@+id/emailid">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/shopnameid3"
+            android:id="@+id/passwordid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_dialpad"
@@ -200,12 +201,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Create Multiple User"
+        android:text="Create User"
         android:textSize="18dp"
         android:textColor="@color/black"
         android:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toTopOf="@+id/outlinedTextField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/dialogclose"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_close_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -114,7 +114,7 @@
                         android:orientation="vertical"
                         android:visibility="gone">
 
-                        <com.terminalbd.www.utils.ClearableAutoCompleteTextView
+                        <com.portal.terminalbd.utils.ClearableAutoCompleteTextView
                             android:id="@+id/med_search"
                             android:layout_width="fill_parent"
                             android:layout_height="@dimen/_35sdp"
@@ -131,7 +131,7 @@
                             android:drawableRight="@drawable/ic_search"
                             android:popupBackground="@color/white">
 
-                        </com.terminalbd.www.utils.ClearableAutoCompleteTextView>
+                        </com.portal.terminalbd.utils.ClearableAutoCompleteTextView>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -447,7 +447,7 @@
                     android:layout_marginLeft="@dimen/_5sdp">
 
 
-                    <com.terminalbd.www.utils.PrefixEditText
+                    <com.portal.terminalbd.utils.PrefixEditText
                         android:id="@+id/discount_et"
                         android:layout_width="0dp"
                         android:layout_weight="2"
@@ -783,7 +783,7 @@
                         android:gravity="center_vertical"/>
 
 
-                    <com.terminalbd.www.utils.PrefixEditText
+                    <com.portal.terminalbd.utils.PrefixEditText
                         android:id="@+id/receivedTk"
                         android:layout_width="0dp"
                         android:layout_weight="2"

@@ -27,7 +27,7 @@
             <bitmap
 
                 android:gravity="right|center"
-                android:src="@drawable/dropdown_incon_black"
+                android:src="@drawable/icon_dropdown"
                 />
 
 

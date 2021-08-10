@@ -5,7 +5,7 @@
 
     <item
         android:id="@+id/sync_status"
-        android:icon="@drawable/purchase_icon"
+        android:icon="@drawable/ic_shopping_cart"
         android:title="@string/sync_status"
         app:showAsAction="always"
         app:actionLayout="@layout/iv_refresh"/>

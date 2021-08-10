@@ -4,25 +4,6 @@
             "outputFile": "F:\\Office Work\\Test App\\Terminalbd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\07f96434c3c85135ee649a1e81c40eea\\jetified-spots-dialog-1.1\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "411"
-                    },
-                    "to": {
-                        "startLines": "268",
-                        "startColumns": "4",
-                        "startOffsets": "19420",
-                        "endLines": "273",
-                        "endColumns": "12",
-                        "endOffsets": "19776"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\2e1730133b22db005dacbb02c4502210\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,4,5,274,275,282,286,324,329",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,19892,20018,20475,20771,22823,23161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\c778322e1fcd6c44265b86ed53cb9737\\jetified-spots-dialog-1.1\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    },
+                    "to": {
+                        "startLines": "268",
+                        "startColumns": "4",
+                        "startOffsets": "19420",
+                        "endLines": "273",
+                        "endColumns": "12",
+                        "endOffsets": "19776"
                     }
                 },
                 {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.terminalbd.www"
+    package="com.portal.terminalbd"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <uses-feature android:name="android.hardware.usb.host" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -24,7 +24,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name="com.terminalbd.www.app.TerminalApplication"
+        android:name="com.portal.terminalbd.app.TerminalApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -38,35 +38,39 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.terminalbd.www.activity.MultipleUserActivity" />
-        <activity android:name="com.terminalbd.www.activity.VerifyOTPActivity" />
-        <activity android:name="com.terminalbd.www.activity.ProductActivity" />
-        <activity android:name="com.terminalbd.www.activity.CategoryActivity" />
-        <activity android:name="com.terminalbd.www.activity.SignupActivity" />
-        <activity android:name="com.terminalbd.www.activity.BarcodeScannerActivity" />
-        <activity android:name="com.terminalbd.www.activity.ExpenseEditActivity" />
-        <activity android:name="com.terminalbd.www.activity.ExpenseDetailsActivity" />
-        <activity android:name="com.terminalbd.www.activity.PurchaseEditActivity" />
-        <activity android:name="com.terminalbd.www.activity.PurchaseDetailsActivity" />
-        <activity android:name="com.terminalbd.www.activity.SalesDetailsActivity" />
-        <activity android:name="com.terminalbd.www.activity.SalesEditActivity" />
-        <activity android:name="com.terminalbd.www.activity.DimsActivity" />
-        <activity android:name="com.terminalbd.www.activity.StockActivity" />
-        <activity android:name="com.terminalbd.www.activity.ExpenseActivity" />
-        <activity android:name="com.terminalbd.www.activity.PurchasePaymentActivity" />
-        <activity android:name="com.terminalbd.www.activity.SalePaymentActivity" >
+        <activity android:name="com.portal.terminalbd.activity.AddTableActivity" >
+        </activity>
+        <activity android:name="com.portal.terminalbd.activity.MultipleUserActivity" />
+        <activity android:name="com.portal.terminalbd.activity.VerifyOTPActivity" />
+        <activity android:name="com.portal.terminalbd.activity.ProductActivity" />
+        <activity android:name="com.portal.terminalbd.activity.CategoryActivity" />
+        <activity android:name="com.portal.terminalbd.activity.SignupActivity" />
+        <activity android:name="com.portal.terminalbd.activity.BarcodeScannerActivity" />
+        <activity android:name="com.portal.terminalbd.activity.ExpenseEditActivity" />
+        <activity android:name="com.portal.terminalbd.activity.ExpenseDetailsActivity" />
+        <activity android:name="com.portal.terminalbd.activity.PurchaseEditActivity" />
+        <activity android:name="com.portal.terminalbd.activity.PurchaseDetailsActivity" />
+        <activity android:name="com.portal.terminalbd.activity.SalesDetailsActivity" />
+        <activity android:name="com.portal.terminalbd.activity.SalesEditActivity" />
+        <activity android:name="com.portal.terminalbd.activity.DimsActivity" />
+        <activity
+            android:name="com.portal.terminalbd.activity.StockActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.portal.terminalbd.activity.ExpenseActivity" />
+        <activity android:name="com.portal.terminalbd.activity.PurchasePaymentActivity" />
+        <activity android:name="com.portal.terminalbd.activity.SalePaymentActivity" >
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
         </activity>
-        <activity android:name="com.terminalbd.www.activity.PurchaseActivity" />
-        <activity android:name="com.terminalbd.www.activity.DashboardActivity" />
-        <activity android:name="com.terminalbd.www.activity.PrinterConnectActivity" />
-        <activity android:name="com.terminalbd.www.activity.SalesActivity" />
-        <activity android:name="com.terminalbd.www.activity.LoginActivity" />
-        <activity android:name="com.terminalbd.www.activity.DeviceListActivity" />
+        <activity android:name="com.portal.terminalbd.activity.PurchaseActivity" />
+        <activity android:name="com.portal.terminalbd.activity.DashboardActivity" />
+        <activity android:name="com.portal.terminalbd.activity.PrinterConnectActivity" />
+        <activity android:name="com.portal.terminalbd.activity.SalesActivity" />
+        <activity android:name="com.portal.terminalbd.activity.LoginActivity" />
+        <activity android:name="com.portal.terminalbd.activity.DeviceListActivity" />
         <activity
-            android:name="com.terminalbd.www.activity.SetupActivity"
+            android:name="com.portal.terminalbd.activity.SetupActivity"
             android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -148,7 +152,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.terminalbd.www.firebaseinitprovider"
+            android:authorities="com.portal.terminalbd.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

@@ -32,4 +32,36 @@
     <string name="menu_send">Send</string>
     <string name="sync_status">sync</string>
 
+
+    <string name="stocktitle">মজুদ</string>
+    <string name="string_mrp">মূল্য</string>
+    <string name="string_unit">ইউনিট</string>
+    <string name="string_pp">ক্রয় মূল্য</string>
+
+    <string name="string_createstocktitle">নতুন মজুদ</string>
+    <string name="string_item_name">আইটেম নাম*</string>
+    <string name="string_fullproductname">পণ্যের পুরো নাম লিখুন</string>
+    <string name="string_selectproductcat">আইটেম ক্যাটাগরি</string>
+    <string name="string_mrpmust">খুচরা মূল্য*</string>
+    <string name="string_PPmust">ক্রয় মূল্য</string>
+    <string name="string_entertheproductmrp">পণ্যের খুচরা মূল্য লিখুন</string>
+    <string name="string_enterthepp">ক্রয় মূল্য</string>
+    <string name="string_brandname">ব্র্যান্ড নাম</string>
+    <string name="string_entertheproductbrandname">আইটেম ব্র্যান্ড নাম</string>
+    <string name="string_minimum">ন্যূনতম</string>
+    <string name="string_opening">শুরুর</string>
+    <string name="string_entertheproductmqty">সর্বনিম্ন পরিমাণ</string>
+    <string name="string_entertheproductoqty">ওপেনিং  পরিমাণ</string>
+    <string name="string_selectproductunit">সিলেক্ট ইউনিট</string>
+    <string name="string_description">বর্ননা </string>
+    <string name="string_enterproductfulldes">আইটেমের পূর্ণ  বিবরণ</string>
+    <string name="string_btnback">ব্যাক</string>
+    <string name="string_save"> সেভ</string>
+    <string name="string_selectacat">ক্যাটাগরি </string>
+    <string name="string_selectaunit">সিলেক্ট ইউনিট</string>
+    <string name="string_updatestockitem">স্টক আইটেম আপডেট</string>
+    <string name="string_update"> আপডেট</string>
+
+
+
 </resources>

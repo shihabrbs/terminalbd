@@ -4,6 +4,23 @@
             "outputFile": "F:\\Office Work\\Test App\\Terminalbd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\341acd65bec331bfdd547bb457e317ec\\jetified-materialdatetimepicker-2.3.0\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,324,432,547,628,735,851,961,1053,1140,1232,1315",
+                        "endColumns": "60,107,114,80,106,115,109,91,86,91,82,100",
+                        "endOffsets": "319,427,542,623,730,846,956,1048,1135,1227,1310,1411"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5448,5509,5617,5732,5813,5920,6036,6146,6238,6325,6417,6500",
+                        "endColumns": "60,107,114,80,106,115,109,91,86,91,82,100",
+                        "endOffsets": "5504,5612,5727,5808,5915,6031,6141,6233,6320,6412,6495,6596"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\b4b89b88c068311f733556262473d9f7\\jetified-play-services-basement-17.1.0\\res\\values-da\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -18,23 +35,6 @@
                         "startOffsets": "3910",
                         "endColumns": "185",
                         "endOffsets": "4091"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\52a4db7bf34bb8f1bda8a85be79e7b9a\\jetified-materialdatetimepicker-2.3.0\\res\\values-da\\values-da.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,324,432,547,628,735,851,961,1053,1140,1232,1315",
-                        "endColumns": "60,107,114,80,106,115,109,91,86,91,82,100",
-                        "endOffsets": "319,427,542,623,730,846,956,1048,1135,1227,1310,1411"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5448,5509,5617,5732,5813,5920,6036,6146,6238,6325,6417,6500",
-                        "endColumns": "60,107,114,80,106,115,109,91,86,91,82,100",
-                        "endOffsets": "5504,5612,5727,5808,5915,6031,6141,6233,6320,6412,6495,6596"
                     }
                 },
                 {

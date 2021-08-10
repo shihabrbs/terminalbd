@@ -1,9 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.d-max:spots-dialog:1.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f96434c3c85135ee649a1e81c40eea/jetified-spots-dialog-1.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f96434c3c85135ee649a1e81c40eea/jetified-spots-dialog-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f96434c3c85135ee649a1e81c40eea/jetified-spots-dialog-1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f96434c3c85135ee649a1e81c40eea/jetified-spots-dialog-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa82e972ac88cd78d7df50e9544cc0dc/jetified-spots-dialog-1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa82e972ac88cd78d7df50e9544cc0dc/jetified-spots-dialog-1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa82e972ac88cd78d7df50e9544cc0dc/jetified-spots-dialog-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8ffd1896101c21fef696a27936ba540/jetified-spots-dialog-1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8ffd1896101c21fef696a27936ba540/jetified-spots-dialog-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8ffd1896101c21fef696a27936ba540/jetified-spots-dialog-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c778322e1fcd6c44265b86ed53cb9737/jetified-spots-dialog-1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c778322e1fcd6c44265b86ed53cb9737/jetified-spots-dialog-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c778322e1fcd6c44265b86ed53cb9737/jetified-spots-dialog-1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

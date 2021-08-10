@@ -4,6 +4,23 @@
             "outputFile": "F:\\Office Work\\Test App\\Terminalbd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\341acd65bec331bfdd547bb457e317ec\\jetified-materialdatetimepicker-2.3.0\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,332,442,558,639,750,870,983,1082,1174,1268,1357",
+                        "endColumns": "68,109,115,80,110,119,112,98,91,93,88,100",
+                        "endOffsets": "327,437,553,634,745,865,978,1077,1169,1263,1352,1453"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5782,5851,5961,6077,6158,6269,6389,6502,6601,6693,6787,6876",
+                        "endColumns": "68,109,115,80,110,119,112,98,91,93,88,100",
+                        "endOffsets": "5846,5956,6072,6153,6264,6384,6497,6596,6688,6782,6871,6972"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\2e1730133b22db005dacbb02c4502210\\core-1.1.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
@@ -18,23 +35,6 @@
                         "startOffsets": "7059",
                         "endColumns": "100",
                         "endOffsets": "7155"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\52a4db7bf34bb8f1bda8a85be79e7b9a\\jetified-materialdatetimepicker-2.3.0\\res\\values-lv\\values-lv.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,332,442,558,639,750,870,983,1082,1174,1268,1357",
-                        "endColumns": "68,109,115,80,110,119,112,98,91,93,88,100",
-                        "endOffsets": "327,437,553,634,745,865,978,1077,1169,1263,1352,1453"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5782,5851,5961,6077,6158,6269,6389,6502,6601,6693,6787,6876",
-                        "endColumns": "68,109,115,80,110,119,112,98,91,93,88,100",
-                        "endOffsets": "5846,5956,6072,6153,6264,6384,6497,6596,6688,6782,6871,6972"
                     }
                 },
                 {

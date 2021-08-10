@@ -4,23 +4,6 @@
             "outputFile": "F:\\Office Work\\Test App\\Terminalbd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\52a4db7bf34bb8f1bda8a85be79e7b9a\\jetified-materialdatetimepicker-2.3.0\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,331,438,551,635,761,883,1013,1111,1206,1305,1396",
-                        "endColumns": "67,106,112,83,125,121,129,97,94,98,90,100",
-                        "endOffsets": "326,433,546,630,756,878,1008,1106,1201,1300,1391,1492"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2843,2911,3018,3131,3215,3341,3463,3593,3691,3786,3885,3976",
-                        "endColumns": "67,106,112,83,125,121,129,97,94,98,90,100",
-                        "endOffsets": "2906,3013,3126,3210,3336,3458,3588,3686,3781,3880,3971,4072"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\2e1730133b22db005dacbb02c4502210\\core-1.1.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
@@ -35,6 +18,23 @@
                         "startOffsets": "4162",
                         "endColumns": "100",
                         "endOffsets": "4258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\341acd65bec331bfdd547bb457e317ec\\jetified-materialdatetimepicker-2.3.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,331,438,551,635,761,883,1013,1111,1206,1305,1396",
+                        "endColumns": "67,106,112,83,125,121,129,97,94,98,90,100",
+                        "endOffsets": "326,433,546,630,756,878,1008,1106,1201,1300,1391,1492"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2843,2911,3018,3131,3215,3341,3463,3593,3691,3786,3885,3976",
+                        "endColumns": "67,106,112,83,125,121,129,97,94,98,90,100",
+                        "endOffsets": "2906,3013,3126,3210,3336,3458,3588,3686,3781,3880,3971,4072"
                     }
                 },
                 {

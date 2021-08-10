@@ -4,23 +4,6 @@
             "outputFile": "F:\\Office Work\\Test App\\Terminalbd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\52a4db7bf34bb8f1bda8a85be79e7b9a\\jetified-materialdatetimepicker-2.3.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,324,428,545,629,738,857,971,1067,1156,1250,1339",
-                        "endColumns": "60,103,116,83,108,118,113,95,88,93,88,97",
-                        "endOffsets": "319,423,540,624,733,852,966,1062,1151,1245,1334,1432"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5564,5625,5729,5846,5930,6039,6158,6272,6368,6457,6551,6640",
-                        "endColumns": "60,103,116,83,108,118,113,95,88,93,88,97",
-                        "endOffsets": "5620,5724,5841,5925,6034,6153,6267,6363,6452,6546,6635,6733"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\2a487bf84ba48882683e387676f9af3b\\jetified-play-services-base-17.1.0\\res\\values-sl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,6 +18,23 @@
                         "startOffsets": "2851,2959,3156,3287,3396,3602,3734,3878,4210,4427,4536,4734,4866,5077,5259,5359,5451",
                         "endColumns": "107,196,130,108,205,131,143,132,216,108,197,131,210,181,99,91,112",
                         "endOffsets": "2954,3151,3282,3391,3597,3729,3873,4006,4422,4531,4729,4861,5072,5254,5354,5446,5559"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Shihab\\.gradle\\caches\\transforms-2\\files-2.1\\341acd65bec331bfdd547bb457e317ec\\jetified-materialdatetimepicker-2.3.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,324,428,545,629,738,857,971,1067,1156,1250,1339",
+                        "endColumns": "60,103,116,83,108,118,113,95,88,93,88,97",
+                        "endOffsets": "319,423,540,624,733,852,966,1062,1151,1245,1334,1432"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5564,5625,5729,5846,5930,6039,6158,6272,6368,6457,6551,6640",
+                        "endColumns": "60,103,116,83,108,118,113,95,88,93,88,97",
+                        "endOffsets": "5620,5724,5841,5925,6034,6153,6267,6363,6452,6546,6635,6733"
                     }
                 },
                 {

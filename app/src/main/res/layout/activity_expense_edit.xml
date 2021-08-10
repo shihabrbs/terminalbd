@@ -176,7 +176,7 @@
 
         </Spinner>
 
-        <com.terminalbd.www.utils.PrefixEditText
+        <com.portal.terminalbd.utils.PrefixEditText
             android:id="@+id/payment_amount_et"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_30sdp"

@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:hint="Category"
         app:boxStrokeColor="@color/black"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/shopnameid"
+            android:id="@+id/categoryid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_baseline_category"
@@ -72,5 +72,15 @@
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/outlinedTextField"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/dialogclose"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_close_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
